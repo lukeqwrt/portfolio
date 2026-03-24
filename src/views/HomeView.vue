@@ -12,7 +12,7 @@ import svg from "../assets/img/me6.png"
 <template>
   <main>
     <!-- landing -->
-    <section id="Home" class="landing h-[100vh] p-5 md:p-12 container mx-auto flex flex-col justify-center sm:justify-center items-center " >
+    <section id="Home" class="landing h-screen p-5 md:p-12 container mx-auto flex flex-col justify-center sm:justify-center items-center " >
       <div class="wrapper w-full sm:w-[unset] h-full lg:max-h-[580px] flex flex-col justify-center items-center relative">
         <div class="flex-1 flex gap-4 flex-col justify-center items-center sm:items-start sm:flex-row-reverse sm:gap-10 sm:flex-[unset]  md:items-center  md:gap-[3rem] lg:gap-[9rem] ">
           <!-- <img :src="White" alt="" class="rounded-full object-cover h-auto w-[180px] sm:w-[200px] md:w-[290px]"> -->
