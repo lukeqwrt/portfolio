@@ -2,12 +2,14 @@
 import { ref } from 'vue'
 import CreationVue from './Creation.vue'
 import coffee from '../../assets/projects-img/coffee.png'
-import disney from '../../assetS/projects-img/disney2.png'
-import store from '../../assetS/projects-img/Capture.jpg'
-import hxh from '../../assetS/projects-img/hunterxhunterpage.jpg'
-import todo from '../../assetS/projects-img/todo-proj.jpg'
+import disney from '../../assets/projects-img/disney2.png'
+import store from '../../assets/projects-img/Capture.jpg'
+import hxh from '../../assets/projects-img/hunterxhunterpage.jpg'
+import todo from '../../assets/projects-img/todo-proj.jpg'
+import pokemon from '../../assets/projects-img/Pokemon-Explorer.png'
 
 const portfolios = ref([
+    { name: 'Pokemon Explorer', image:pokemon, details:'A coffee website is a website that allow the user to view and choose their favorite coffee in the menu', tools:['HTML', 'CSS', 'JavaScript'], code:'https://github.com/lukeqwrt/pokemon-explorer', livedemo:'https://lukeqwrt.github.io/pokemon-explorer/' },
     { name: 'Coffee Website', image:coffee, details:'A coffee website is a website that allow the user to view and choose their favorite coffee in the menu', tools:['HTML', 'CSS', 'JavaScript'], code:'https://github.com/lukeqwrt/Coffee-shop', livedemo:'https://coffee-shop-sillano.netlify.app/' },
     { name: 'Disney Clone', image:disney, details:'A Disney Plus Clone using tmdb api and Firebase Authentication enabling the user to view trending movies by genre and also see the details.', tools:['Vue JS', 'SCSS'], code:'https://github.com/lukeqwrt/disney-clone', livedemo:'https://lukeqwrt.github.io/disney-clone/' },
     { name: 'E-commerce Website', image:store, details:'This is and E-commerce website store that allow the user to shop and pick items to add cart and has a nice design and page', tools:['HTML', 'CSS', 'JavaScript'], code:'https://github.com/lukeqwrt/store-website', livedemo:'https://lukeqwrt.github.io/store-website/' },
